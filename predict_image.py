@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 
 # Define Paths
 BASE_DIR = "C:/Users/shanen/Desktop/Project-Folder"
-MODEL_PATH = os.path.join(BASE_DIR, "algae_classifier_model.h5")
+MODEL_PATH = os.path.join(BASE_DIR, "algae_classifier_model_v6.h5")
 
 # Load the trained model
 if not os.path.exists(MODEL_PATH):

@@ -72,5 +72,5 @@ loss, accuracy = model.evaluate(test_generator)
 print(f"Test Accuracy: {accuracy * 100:.2f}%")
 
 # Step 6: Save the Model
-model.save(os.path.join(BASE_DIR, "algae_classifier_model.h5"))
-print(" Model saved as 'algae_classifier_model.h5'")
+model.save(os.path.join(BASE_DIR, "algae_classifier_model_v6.h5"))
+print(" Model saved as 'algae_classifier_model_v6.h5'")
